@@ -1,0 +1,22 @@
+\select@language {portuguese}
+\contentsline {chapter}{Declara\IeC {\c c}\IeC {\~a}o de autoria}{i}{dummy.1}
+\vspace {1em}
+\contentsline {chapter}{Abstract}{iii}{dummy.2}
+\vspace {1em}
+\contentsline {chapter}{Agradecimentos}{iv}{dummy.3}
+\vspace {1em}
+\contentsline {chapter}{Lista de Figuras}{vi}{dummy.5}
+\contentsline {chapter}{Lista de Tabelas}{vii}{dummy.7}
+\contentsline {chapter}{Abrevia\IeC {\c c}\IeC {\~o}es}{viii}{dummy.9}
+\contentsline {chapter}{Constantes F\IeC {\'\i }sicas}{ix}{dummy.12}
+\contentsline {chapter}{S\IeC {\'\i }mbolos}{x}{dummy.15}
+\vspace {2em}
+\contentsline {chapter}{\numberline {1}Introdu\IeC {\c c}\IeC {\~a}o}{1}{chapter.18}
+\contentsline {chapter}{\numberline {2}Algoritmos de extra\IeC {\c c}\IeC {\~a}o e reconhecimento de caracter\IeC {\'\i }sticas}{2}{chapter.19}
+\contentsline {chapter}{\numberline {3}Movimenta\IeC {\c c}\IeC {\~a}o e identifica\IeC {\c c}\IeC {\~a}o de nuvens}{3}{chapter.20}
+\contentsline {chapter}{\numberline {4}Experimento comparativo}{4}{chapter.21}
+\contentsline {chapter}{\numberline {5}Resultados e an\IeC {\'a}lises}{5}{chapter.22}
+\contentsline {chapter}{\numberline {6}Conclus\IeC {\~o}es}{6}{chapter.23}
+\vspace {2em}
+\contentsline {chapter}{\numberline {A}An Appendix}{7}{appendix.24}
+\vspace {2em}

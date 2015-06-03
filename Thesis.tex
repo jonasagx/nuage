@@ -1,6 +1,6 @@
 %% ----------------------------------------------------------------
 %% Thesis.tex -- MAIN FILE (the one that you compile with LaTeX)
-%% ---------------------------------------------------------------- 
+%% ----------------------------------------------------------------
 \RequirePackage[utf8]{inputenc}
 % Set up the document
 \documentclass[a4paper, 11pt, oneside]{Thesis}  % Use the "Thesis" style, based on the ECS Thesis style by Steve Gunn
@@ -49,25 +49,25 @@
 
 I, AUTHOR NAME, declare that this thesis titled, `THESIS TITLE' and the work presented in it are my own. I confirm that:
 
-\begin{itemize} 
+\begin{itemize}
 \item[\tiny{$\blacksquare$}] This work was done wholly or mainly while in candidature for a research degree at this University.
- 
+
 \item[\tiny{$\blacksquare$}] Where any part of this thesis has previously been submitted for a degree or any other qualification at this University or any other institution, this has been clearly stated.
- 
+
 \item[\tiny{$\blacksquare$}] Where I have consulted the published work of others, this is always clearly attributed.
- 
+
 \item[\tiny{$\blacksquare$}] Where I have quoted from the work of others, the source is always given. With the exception of such quotations, this thesis is entirely my own work.
- 
+
 \item[\tiny{$\blacksquare$}] I have acknowledged all main sources of help.
- 
+
 \item[\tiny{$\blacksquare$}] Where the thesis is based on work done by myself jointly with others, I have made clear exactly what was done by others and what I have contributed myself.
 \\
 \end{itemize}
- 
- 
+
+
 Signed:\\
 \rule[1em]{25em}{0.5pt}  % This prints a line for the signature
- 
+
 Date:\\
 \rule[1em]{25em}{0.5pt}  % This prints a line to write the date
 }
@@ -94,7 +94,7 @@ If the quote is taken from someone, their name goes here
 \abstract{
 \addtocontents{toc}{\vspace{1em}}  % Add a gap in the Contents, for aesthetics
 
-Este trabalho analisa o comportamento 
+Este trabalho analisa o comportamento
 
 The Thesis Abstract is written here (and usually kept to just this page). The page is kept centered vertically so can expand into the blank space above the title too\ldots
 
@@ -181,15 +181,17 @@ $\omega$ & angular frequency & rads$^{-1}$ \\
 % Include the chapters of the thesis, as separate files
 % Just uncomment the lines as you write the chapters
 
-\input{Chapters/Chapter1} % Introduction
+\input{Chapters/Chapter0} % Introdução
 
-%\input{Chapters/Chapter2} % Background Theory 
+\input{Chapters/Chapter1} % Algoritmos de detecção e reconhecimento de padrões
 
-%\input{Chapters/Chapter3} % Experimental Setup
+\input{Chapters/Chapter2} % Movimentação e identificação de nuvens
 
-%\input{Chapters/Chapter4} % Experiment 1
+\input{Chapters/Chapter3} % Experimento
 
-%\input{Chapters/Chapter5} % Experiment 2
+\input{Chapters/Chapter4} % Resultados e análises
+
+\input{Chapters/Chapter5} % Conclusões
 
 %\input{Chapters/Chapter6} % Results and Discussion
 
