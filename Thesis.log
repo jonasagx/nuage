@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014/Arch Linux) (preloaded format=pdflatex 2015.4.13)  3 JUN 2015 01:03
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014/Arch Linux) (preloaded format=pdflatex 2015.4.13)  6 JUN 2015 03:21
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -903,7 +903,14 @@ Cap\'{\i }tulo 4.
 ------------------------------------------------------------------------------
  4 Experimento comparativo
 ------------------------------------------------------------------------------
-) (./Chapters/Chapter4.tex [4
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 10.
+(/usr/share/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 10.
+) (./Chapters/Chapter4.tex
+[4
 
 ]
 Cap\'{\i }tulo 5.
@@ -941,10 +948,10 @@ Package rerunfilecheck Info: File `Thesis.out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 222.
  ) 
 Here is how much of TeX's memory you used:
- 13576 strings out of 493109
- 187947 string characters out of 6140856
+ 13594 strings out of 493109
+ 188234 string characters out of 6140856
  267258 words of memory out of 5000000
- 16777 multiletter control sequences out of 15000+600000
+ 16792 multiletter control sequences out of 15000+600000
  12700 words of font info for 47 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  49i,11n,45p,13210b,405s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -959,7 +966,7 @@ ublic/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts
 /cm/cmsy8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
 </usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/te
 xmf-dist/fonts/type1/public/amsfonts/symbols/msam7.pfb>
-Output written on Thesis.pdf (20 pages, 162411 bytes).
+Output written on Thesis.pdf (20 pages, 166096 bytes).
 PDF statistics:
  252 PDF objects out of 1000 (max. 8388607)
  214 compressed objects within 3 object streams
