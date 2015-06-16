@@ -1,1 +1,45 @@
 \chapter{Algoritmos de extração e reconhecimento de características}
+
+% In computer vision and image processing the concept of feature detection refers
+% to methods that aim at computing abstractions of image information and making
+%local decisions at every image point whether there is an image feature of a
+%given type at that point or not. The resulting features will be subsets of the
+%image domain, often in the form of isolated points, continuous curves or connected regions.
+
+Em visão computacional e processamento de imagem o conceito de detecção de
+características (Feature detenction do termo em inglês) se refere aos
+métodos que procuram através da computação de abstrações das informações de uma
+imagem tomar decisões em cada ponto de uma imagem: se existe uma característica
+de algum tipo nesse ponto ou não. As características resultantes serão
+subconjuntos do domonio da imagem, frequentemente na forma de pontos isolados,
+curvas contínuas ou regiões conectadas.
+
+First, ‘interest points’ are selected at distinctive locations in the image,
+such as corners, blobs, and T-junctions. The most valuable property of an
+interest point detector is its repeatability, i.e. whether it reliably finds
+the same interest points under different viewing conditions. Next, the
+neighbourhood of every interest point is represented by a feature vector. This
+descriptor has to be distinctive and, at the same time, robust to noise,
+detection errors, and geometric and photometric deformations. Finally, the
+descriptor vectors are matched between different images. The matching is often
+based on a distance between the vectors, e.g. the Mahalanobis or Euclidean
+distance. The dimension of the descriptor has a direct impact on the time this
+takes, and a lower number of dimensions is therefore desirable
+
+\section{SURF - Speeded up robust features}
+Here, we focus on scale and image rotation invari ant detectors and
+descriptors. These seem to offer a good compromise between feature complexity
+and robustness to commonly occurring deformations. Skew, anisotropic scaling,
+and perspective effects are assumed to be second-order effects, that are
+covered to some degree by the overall robustness of the descriptor. As also
+claimed by Lowe [2], the additional complexity of full affine-invariant
+features often has a negative impact on their robustness and does not pay off,
+unless really large viewpoint changes are to be expected. In some cases, even
+rotation invariance can be left out, resulting in a scale-invariant only
+version of our descriptor, which we refer to as ’upright SURF’
+(U-SURF). Indeed, in quite a few applications, like mobile robot navigation or
+visual tourist guiding, the camera often only rotates about the vertical
+axis. The benefit of avoiding the overkill of rotation invariance in such cases
+is not only increased speed, but also increased discriminative
+power. Concerning the photometric deformations, we assume a simple linear model
+with a scale factor and offset. Notice that our detector and descriptor don’t use colour.

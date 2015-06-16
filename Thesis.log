@@ -1,24 +1,24 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014/Arch Linux) (preloaded format=pdflatex 2015.4.13)  6 JUN 2015 03:21
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2015/dev/Debian) (preloaded format=pdflatex 2015.6.9)  16 JUN 2015 07:00
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **Thesis.tex
 (./Thesis.tex
 LaTeX2e <2014/05/01>
-Babel <3.9l> and hyphenation patterns for 79 languages loaded.
-(/usr/share/texmf-dist/tex/latex/base/inputenc.sty
+Babel <3.9l> and hyphenation patterns for 3 languages loaded.
+(/usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
 Package: inputenc 2014/04/30 v1.2b Input encoding file
 \inpenc@prehook=\toks14
 \inpenc@posthook=\toks15
 
-(/usr/share/texmf-dist/tex/latex/base/utf8.def
+(/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def
 File: utf8.def 2014/09/29 v1.1m UTF-8 support for inputenc
 Now handling font encoding OML ...
 ... no UTF-8 mapping file for font encoding OML
 Now handling font encoding T1 ...
 ... processing UTF-8 mapping file for font encoding T1
 
-(/usr/share/texmf-dist/tex/latex/base/t1enc.dfu
+(/usr/share/texlive/texmf-dist/tex/latex/base/t1enc.dfu
 File: t1enc.dfu 2014/09/29 v1.1m UTF-8 support for inputenc
    defining Unicode char U+00A1 (decimal 161)
    defining Unicode char U+00A3 (decimal 163)
@@ -168,7 +168,7 @@ File: t1enc.dfu 2014/09/29 v1.1m UTF-8 support for inputenc
 Now handling font encoding OT1 ...
 ... processing UTF-8 mapping file for font encoding OT1
 
-(/usr/share/texmf-dist/tex/latex/base/ot1enc.dfu
+(/usr/share/texlive/texmf-dist/tex/latex/base/ot1enc.dfu
 File: ot1enc.dfu 2014/09/29 v1.1m UTF-8 support for inputenc
    defining Unicode char U+00A1 (decimal 161)
    defining Unicode char U+00A3 (decimal 163)
@@ -199,7 +199,7 @@ File: ot1enc.dfu 2014/09/29 v1.1m UTF-8 support for inputenc
 Now handling font encoding OMS ...
 ... processing UTF-8 mapping file for font encoding OMS
 
-(/usr/share/texmf-dist/tex/latex/base/omsenc.dfu
+(/usr/share/texlive/texmf-dist/tex/latex/base/omsenc.dfu
 File: omsenc.dfu 2014/09/29 v1.1m UTF-8 support for inputenc
    defining Unicode char U+00A7 (decimal 167)
    defining Unicode char U+00B6 (decimal 182)
@@ -224,9 +224,9 @@ Now handling font encoding U ...
    defining Unicode char U+2423 (decimal 9251)
 )) (./Thesis.cls
 Document Class: Thesis 2007/22/02 v1.0 LaTeX document class
-(/usr/share/texmf-dist/tex/latex/base/book.cls
+(/usr/share/texlive/texmf-dist/tex/latex/base/book.cls
 Document Class: book 2014/09/29 v1.4h Standard LaTeX document class
-(/usr/share/texmf-dist/tex/latex/base/bk11.clo
+(/usr/share/texlive/texmf-dist/tex/latex/base/bk11.clo
 File: bk11.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 )
 \c@part=\count79
@@ -242,16 +242,33 @@ File: bk11.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
 )
-(/usr/share/texmf-dist/tex/latex/setspace/setspace.sty
+(/usr/share/texlive/texmf-dist/tex/latex/setspace/setspace.sty
 Package: setspace 2011/12/19 v6.7a set line spacing
 )
-(/usr/share/texmf-dist/tex/latex/vmargin/vmargin.sty
-Package: vmargin 2004/07/15 V2.5 set document margins (VK)
 
-Package: vmargin 2004/07/15 V2.5 set document margins (VK)
-\PaperWidth=\dimen103
-\PaperHeight=\dimen104
-) (/usr/share/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+! LaTeX Error: File `vmargin.sty' not found.
+
+Type X to quit or <RETURN> to proceed,
+or enter new name. (Default extension: sty)
+
+Enter file name: 
+! Undefined control sequence.
+<recently read> \setmarginsrb 
+                              
+l.51 \setmarginsrb
+                             { 1.5in}  % left margin
+? 
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.51 \setmarginsrb           { 1
+                                .5in}  % left margin
+? 
+(/usr/share/texlive/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
 \fancy@headwidth=\skip43
 \f@ncyO@elh=\skip44
 \f@ncyO@erh=\skip45
@@ -262,24 +279,24 @@ Package: vmargin 2004/07/15 V2.5 set document margins (VK)
 \f@ncyO@olf=\skip50
 \f@ncyO@orf=\skip51
 )
-(/usr/share/texmf-dist/tex/latex/amsmath/amsmath.sty
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
 Package: amsmath 2013/01/14 v2.14 AMS math features
 \@mathmargin=\skip52
 
 For additional information on amsmath, use the `?' option.
-(/usr/share/texmf-dist/tex/latex/amsmath/amstext.sty
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
 Package: amstext 2000/06/29 v2.01
 
-(/usr/share/texmf-dist/tex/latex/amsmath/amsgen.sty
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0
 \@emptytoks=\toks16
-\ex@=\dimen105
+\ex@=\dimen103
 ))
-(/usr/share/texmf-dist/tex/latex/amsmath/amsbsy.sty
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d
-\pmbraise@=\dimen106
+\pmbraise@=\dimen104
 )
-(/usr/share/texmf-dist/tex/latex/amsmath/amsopn.sty
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 1999/12/14 v2.01 operator names
 )
 \inf@bad=\count88
@@ -294,7 +311,7 @@ LaTeX Info: Redefining \dots on input line 381.
 LaTeX Info: Redefining \cdots on input line 466.
 \Mathstrutbox@=\box26
 \strutbox@=\box27
-\big@size=\dimen107
+\big@size=\dimen105
 LaTeX Font Info:    Redeclaring font encoding OML on input line 566.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
 \macc@depth=\count93
@@ -307,12 +324,12 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
 \column@=\count98
 \maxfields@=\count99
 \andhelp@=\toks18
-\eqnshift@=\dimen108
-\alignsep@=\dimen109
-\tagshift@=\dimen110
-\tagwidth@=\dimen111
-\totwidth@=\dimen112
-\lineht@=\dimen113
+\eqnshift@=\dimen106
+\alignsep@=\dimen107
+\tagshift@=\dimen108
+\tagwidth@=\dimen109
+\totwidth@=\dimen110
+\lineht@=\dimen111
 \@envbody=\toks19
 \multlinegap=\skip53
 \multlinetaggap=\skip54
@@ -320,24 +337,24 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
 LaTeX Info: Redefining \[ on input line 2665.
 LaTeX Info: Redefining \] on input line 2666.
 )
-(/usr/share/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \symAMSa=\mathgroup4
 \symAMSb=\mathgroup5
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
 )
-(/usr/share/texmf-dist/tex/latex/amsfonts/amssymb.sty
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amssymb.sty
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
 )
-(/usr/share/texmf-dist/tex/latex/amsmath/amscd.sty
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amscd.sty
 Package: amscd 1999/11/29 v2.0
 \athelp@=\toks21
-\minaw@=\dimen114
-\bigaw@=\dimen115
-\minCDarrowwidth=\dimen116
+\minaw@=\dimen112
+\bigaw@=\dimen113
+\minCDarrowwidth=\dimen114
 )
-(/usr/share/texmf-dist/tex/latex/amscls/amsthm.sty
+(/usr/share/texlive/texmf-dist/tex/latex/amscls/amsthm.sty
 Package: amsthm 2009/07/02 v2.20.1
 \thm@style=\toks22
 \thm@bodyfont=\toks23
@@ -349,83 +366,83 @@ Package: amsthm 2009/07/02 v2.20.1
 \thm@headsep=\skip57
 \dth@everypar=\toks27
 )
-(/usr/share/texmf-dist/tex/latex/tools/xspace.sty
+(/usr/share/texlive/texmf-dist/tex/latex/tools/xspace.sty
 Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
 )
 \c@example=\count100
 \c@theorem=\count101
 
-(/usr/share/texmf-dist/tex/latex/caption/caption.sty
+(/usr/share/texlive/texmf-dist/tex/latex/caption/caption.sty
 Package: caption 2013/05/02 v3.3-89 Customizing captions (AR)
 
-(/usr/share/texmf-dist/tex/latex/caption/caption3.sty
+(/usr/share/texlive/texmf-dist/tex/latex/caption/caption3.sty
 Package: caption3 2013/05/02 v1.6-88 caption3 kernel (AR)
 Package caption3 Info: TeX engine: e-TeX on input line 57.
 
-(/usr/share/texmf-dist/tex/latex/graphics/keyval.sty
-Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/05/08 v1.15 key=value parser (DPC)
 \KV@toks@=\toks28
 )
-\captionmargin=\dimen117
-\captionmargin@=\dimen118
-\captionwidth=\dimen119
-\caption@tempdima=\dimen120
-\caption@indent=\dimen121
-\caption@parindent=\dimen122
-\caption@hangindent=\dimen123
+\captionmargin=\dimen115
+\captionmargin@=\dimen116
+\captionwidth=\dimen117
+\caption@tempdima=\dimen118
+\caption@indent=\dimen119
+\caption@parindent=\dimen120
+\caption@hangindent=\dimen121
 )
 \c@ContinuedFloat=\count102
 )
-(/usr/share/texmf-dist/tex/latex/graphics/graphicx.sty
-Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2014/04/25 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
 
-(/usr/share/texmf-dist/tex/latex/graphics/graphics.sty
-Package: graphics 2014/10/28 v1.0p Standard LaTeX Graphics (DPC,SPQR)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
 
-(/usr/share/texmf-dist/tex/latex/graphics/trig.sty
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
 Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
 )
-(/usr/share/texmf-dist/tex/latex/latexconfig/graphics.cfg
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/graphics.cfg
 File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
 )
 Package graphics Info: Driver file: pdftex.def on input line 91.
 
-(/usr/share/texmf-dist/tex/latex/pdftex-def/pdftex.def
+(/usr/share/texlive/texmf-dist/tex/latex/pdftex-def/pdftex.def
 File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
 
-(/usr/share/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/infwarerr.sty
 Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
 )
-(/usr/share/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
 Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 )
 \Gread@gobject=\count103
 ))
-\Gin@req@height=\dimen124
-\Gin@req@width=\dimen125
+\Gin@req@height=\dimen122
+\Gin@req@width=\dimen123
 )
-(/usr/share/texmf-dist/tex/latex/oberdiek/epstopdf.sty
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf.sty
 Package: epstopdf 2010/02/09 v2.5 Conversion with epstopdf on the fly (HO)
 
-(/usr/share/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
 
-(/usr/share/texmf-dist/tex/latex/oberdiek/grfext.sty
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/grfext.sty
 Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
 
-(/usr/share/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
 Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
 ))
-(/usr/share/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/kvoptions.sty
 Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
 
-(/usr/share/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
 Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
 
-(/usr/share/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/etexcmds.sty
 Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
 
-(/usr/share/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifluatex.sty
 Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
 Package ifluatex Info: LuaTeX not detected.
 )
@@ -434,11 +451,11 @@ Package etexcmds Info: Could not find \expanded.
 (etexcmds)             that some package has redefined \expanded.
 (etexcmds)             In the latter case, load this package earlier.
 )))
-(/usr/share/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
 Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
 )
 
-(/usr/share/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifpdf.sty
 Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
 Package ifpdf Info: pdfTeX in PDF mode is detected.
 )
@@ -452,95 +469,90 @@ Package grfext Info: Graphics extension search list:
 G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 452.
 
-(/usr/share/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 )))
-(/usr/share/texmf-dist/tex/latex/subfigure/subfigure.sty
-Package: subfigure 2002/03/15 v2.1.5 subfigure package
-\subfigtopskip=\skip58
-\subfigcapskip=\skip59
-\subfigcaptopadj=\dimen126
-\subfigbottomskip=\skip60
-\subfigcapmargin=\dimen127
-\subfiglabelskip=\skip61
-\c@subfigure=\count104
-\c@lofdepth=\count105
-\c@subtable=\count106
-\c@lotdepth=\count107
 
-****************************************
-* Local config file subfigure.cfg used *
-****************************************
-(/usr/share/texmf-dist/tex/latex/subfigure/subfigure.cfg)
-\subfig@top=\skip62
-\subfig@bottom=\skip63
-)
-(/usr/share/texmf-dist/tex/latex/booktabs/booktabs.sty
+! LaTeX Error: File `subfigure.sty' not found.
+
+Type X to quit or <RETURN> to proceed,
+or enter new name. (Default extension: sty)
+
+Enter file name: 
+
+! LaTeX Error: Unknown option `scriptsize' for package `subfigure'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.112 \usepackage
+                 {booktabs}
+? 
+(/usr/share/texlive/texmf-dist/tex/latex/booktabs/booktabs.sty
 Package: booktabs 2005/04/14 v1.61803 publication quality tables
-\heavyrulewidth=\dimen128
-\lightrulewidth=\dimen129
-\cmidrulewidth=\dimen130
-\belowrulesep=\dimen131
-\belowbottomsep=\dimen132
-\aboverulesep=\dimen133
-\abovetopsep=\dimen134
-\cmidrulesep=\dimen135
-\cmidrulekern=\dimen136
-\defaultaddspace=\dimen137
-\@cmidla=\count108
-\@cmidlb=\count109
-\@aboverulesep=\dimen138
-\@belowrulesep=\dimen139
-\@thisruleclass=\count110
-\@lastruleclass=\count111
-\@thisrulewidth=\dimen140
+\heavyrulewidth=\dimen124
+\lightrulewidth=\dimen125
+\cmidrulewidth=\dimen126
+\belowrulesep=\dimen127
+\belowbottomsep=\dimen128
+\aboverulesep=\dimen129
+\abovetopsep=\dimen130
+\cmidrulesep=\dimen131
+\cmidrulekern=\dimen132
+\defaultaddspace=\dimen133
+\@cmidla=\count104
+\@cmidlb=\count105
+\@aboverulesep=\dimen134
+\@belowrulesep=\dimen135
+\@thisruleclass=\count106
+\@lastruleclass=\count107
+\@thisrulewidth=\dimen136
 )
-(/usr/share/texmf-dist/tex/latex/rotating/rotating.sty
+(/usr/share/texlive/texmf-dist/tex/latex/rotating/rotating.sty
 Package: rotating 2009/03/28 v2.16a rotated objects in LaTeX
 
-(/usr/share/texmf-dist/tex/latex/base/ifthen.sty
+(/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty
 Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 )
-\c@r@tfl@t=\count112
-\rotFPtop=\skip64
-\rotFPbot=\skip65
+\c@r@tfl@t=\count108
+\rotFPtop=\skip58
+\rotFPbot=\skip59
 \rot@float@box=\box28
 \rot@mess@toks=\toks29
 )
-(/usr/share/texmf-dist/tex/latex/listings/listings.sty
-\lst@mode=\count113
+(/usr/share/texlive/texmf-dist/tex/latex/listings/listings.sty
+\lst@mode=\count109
 \lst@gtempboxa=\box29
 \lst@token=\toks30
-\lst@length=\count114
-\lst@currlwidth=\dimen141
-\lst@column=\count115
-\lst@pos=\count116
-\lst@lostspace=\dimen142
-\lst@width=\dimen143
-\lst@newlines=\count117
-\lst@lineno=\count118
-\lst@maxwidth=\dimen144
- (./lstpatch.sty)
-(/usr/share/texmf-dist/tex/latex/listings/lstmisc.sty
+\lst@length=\count110
+\lst@currlwidth=\dimen137
+\lst@column=\count111
+\lst@pos=\count112
+\lst@lostspace=\dimen138
+\lst@width=\dimen139
+\lst@newlines=\count113
+\lst@lineno=\count114
+\lst@maxwidth=\dimen140
+ (./lstpatch.sty) (/usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2014/09/06 1.5e (Carsten Heinz)
-\c@lstnumber=\count119
-\lst@skipnumbers=\count120
+\c@lstnumber=\count115
+\lst@skipnumbers=\count116
 \lst@framebox=\box30
 )
-(/usr/share/texmf-dist/tex/latex/listings/listings.cfg
+(/usr/share/texlive/texmf-dist/tex/latex/listings/listings.cfg
 File: listings.cfg 2014/09/06 1.5e listings configuration
 ))
 Package: listings 2014/09/06 1.5e (Carsten Heinz)
- (./lstpatch.sty)
-(/usr/share/texmf-dist/tex/latex/hyperref/hyperref.sty
-Package: hyperref 2012/11/06 v6.83m Hypertext links for LaTeX
 
-(/usr/share/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+(./lstpatch.sty) (/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2012/11/06 v6.83m Hypertext links for LaTeX
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
 Package: hobsub-hyperref 2012/05/28 v1.13 Bundle oberdiek, subset hyperref (HO)
 
 
-(/usr/share/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
 Package: hobsub-generic 2012/05/28 v1.13 Bundle oberdiek, subset generic (HO)
 Package: hobsub 2012/05/28 v1.13 Construct package bundles (HO)
 Package hobsub Info: Skipping package `infwarerr' (already loaded).
@@ -570,24 +582,24 @@ Package: atbegshi 2011/10/05 v1.16 At begin shipout hook (HO)
 Package: refcount 2011/10/16 v3.4 Data extraction from label references (HO)
 Package: hycolor 2011/01/30 v1.7 Color options for hyperref/bookmark (HO)
 )
-(/usr/share/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+(/usr/share/texlive/texmf-dist/tex/generic/ifxetex/ifxetex.sty
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
-(/usr/share/texmf-dist/tex/latex/oberdiek/auxhook.sty
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/auxhook.sty
 Package: auxhook 2011/03/04 v1.3 Hooks for auxiliary files (HO)
 )
-\@linkdim=\dimen145
-\Hy@linkcounter=\count121
-\Hy@pagecounter=\count122
+\@linkdim=\dimen141
+\Hy@linkcounter=\count117
+\Hy@pagecounter=\count118
 
-(/usr/share/texmf-dist/tex/latex/hyperref/pd1enc.def
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def
 File: pd1enc.def 2012/11/06 v6.83m Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
 ... no UTF-8 mapping file for font encoding PD1
 )
-\Hy@SavedSpaceFactor=\count123
+\Hy@SavedSpaceFactor=\count119
 
-(/usr/share/texmf-dist/tex/latex/latexconfig/hyperref.cfg
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/hyperref.cfg
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
 )
 Package hyperref Info: Option `bookmarks' set `true' on input line 4319.
@@ -598,7 +610,7 @@ Package hyperref Info: Option `hypertexnames' set `false' on input line 4319.
 Package hyperref Info: Option `colorlinks' set `true' on input line 4319.
 Package hyperref Info: Option `unicode' set `true' on input line 4319.
 
-(/usr/share/texmf-dist/tex/latex/hyperref/puenc.def
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/puenc.def
 File: puenc.def 2012/11/06 v6.83m Hyperref: PDF Unicode definition (HO)
 Now handling font encoding PU ...
 ... no UTF-8 mapping file for font encoding PU
@@ -611,17 +623,17 @@ Package hyperref Info: Plain pages OFF on input line 4458.
 Package hyperref Info: Backreferencing OFF on input line 4463.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4688.
-\c@Hy@tempcnt=\count124
+\c@Hy@tempcnt=\count120
 
-(/usr/share/texmf-dist/tex/latex/url/url.sty
+(/usr/share/texlive/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip11
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 LaTeX Info: Redefining \url on input line 5041.
-\XeTeXLinkMargin=\dimen146
-\Fld@menulength=\count125
-\Field@Width=\dimen147
-\Fld@charsize=\dimen148
+\XeTeXLinkMargin=\dimen142
+\Fld@menulength=\count121
+\Field@Width=\dimen143
+\Fld@charsize=\dimen144
 Package hyperref Info: Hyper figures OFF on input line 6295.
 Package hyperref Info: Link nesting OFF on input line 6300.
 Package hyperref Info: Hyper index ON on input line 6303.
@@ -631,68 +643,68 @@ Package hyperref Info: Link coloring with OCG OFF on input line 6320.
 Package hyperref Info: PDF/A mode OFF on input line 6325.
 LaTeX Info: Redefining \ref on input line 6365.
 LaTeX Info: Redefining \pageref on input line 6369.
-\Hy@abspage=\count126
-\c@Item=\count127
-\c@Hfootnote=\count128
+\Hy@abspage=\count122
+\c@Item=\count123
+\c@Hfootnote=\count124
 )
 
 Package hyperref Message: Driver (autodetected): hpdftex.
 
-(/usr/share/texmf-dist/tex/latex/hyperref/hpdftex.def
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hpdftex.def
 File: hpdftex.def 2012/11/06 v6.83m Hyperref driver for pdfTeX
-\Fld@listcount=\count129
-\c@bookmark@seq@number=\count130
+\Fld@listcount=\count125
+\c@bookmark@seq@number=\count126
 
-(/usr/share/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
 Package: rerunfilecheck 2011/04/15 v1.7 Rerun checks for auxiliary files (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 82.
 )
-\Hy@SectionHShift=\skip66
+\Hy@SectionHShift=\skip60
 )
-\c@dummy=\count131
+\c@dummy=\count127
 
-(/usr/share/texmf-dist/tex/latex/tools/longtable.sty
+(/usr/share/texlive/texmf-dist/tex/latex/tools/longtable.sty
 Package: longtable 2014/10/28 v4.11 Multi-page Table package (DPC)
-\LTleft=\skip67
-\LTright=\skip68
-\LTpre=\skip69
-\LTpost=\skip70
-\LTchunksize=\count132
-\LTcapwidth=\dimen149
+\LTleft=\skip61
+\LTright=\skip62
+\LTpre=\skip63
+\LTpost=\skip64
+\LTchunksize=\count128
+\LTcapwidth=\dimen145
 \LT@head=\box31
 \LT@firsthead=\box32
 \LT@foot=\box33
 \LT@lastfoot=\box34
-\LT@cols=\count133
-\LT@rows=\count134
-\c@LT@tables=\count135
-\c@LT@chunks=\count136
+\LT@cols=\count129
+\LT@rows=\count130
+\c@LT@tables=\count131
+\c@LT@chunks=\count132
 \LT@p@ftn=\toks31
 ))
-(/usr/share/texmf-dist/tex/latex/natbib/natbib.sty
+(/usr/share/texlive/texmf-dist/tex/latex/natbib/natbib.sty
 Package: natbib 2010/09/13 8.31b (PWD, AO)
-\bibhang=\skip71
-\bibsep=\skip72
+\bibhang=\skip65
+\bibsep=\skip66
 LaTeX Info: Redefining \cite on input line 694.
-\c@NAT@ctr=\count137
+\c@NAT@ctr=\count133
 )
-(/usr/share/texmf-dist/tex/latex/tools/verbatim.sty
+(/usr/share/texlive/texmf-dist/tex/latex/tools/verbatim.sty
 Package: verbatim 2014/10/28 v1.5q LaTeX2e package for verbatim enhancements
 \every@verbatim=\toks32
 \verbatim@line=\toks33
 \verbatim@in@stream=\read1
 ) (./vector.sty)
-(/usr/share/texmf-dist/tex/generic/babel/babel.sty
+(/usr/share/texlive/texmf-dist/tex/generic/babel/babel.sty
 Package: babel 2014/09/25 3.9l The Babel package
 
-(/usr/share/texmf-dist/tex/generic/babel-portuges/portuges.ldf
+(/usr/share/texlive/texmf-dist/tex/generic/babel-portuges/portuges.ldf
 Language: portuges 2008/03/18 v1.2q Portuguese support from the babel system
 
-(/usr/share/texmf-dist/tex/generic/babel/babel.def
+(/usr/share/texlive/texmf-dist/tex/generic/babel/babel.def
 File: babel.def 2014/09/25 3.9l Babel common definitions
-\babel@savecnt=\count138
-\U@D=\dimen150
+\babel@savecnt=\count134
+\U@D=\dimen146
 )
 Package babel Info: Making " an active character on input line 145.
 ))
@@ -721,76 +733,99 @@ Package caption Info: hyperref package is loaded.
 Package caption Info: listings package is loaded.
 Package caption Info: longtable package is loaded.
 
-(/usr/share/texmf-dist/tex/latex/caption/ltcaption.sty
+(/usr/share/texlive/texmf-dist/tex/latex/caption/ltcaption.sty
 Package: ltcaption 2013/02/03 v1.3-62 longtable captions (AR)
 )
 Package caption Info: rotating package is loaded.
 Package caption Info: subfigure package is loaded.
-Package caption Info: End \AtBeginDocument code.
 
-(/usr/share/texmf-dist/tex/context/base/supp-pdf.mkii
+
+! Package caption Error: For a successful cooperation we need at least version
+(caption)                `2002/01/23 v2.1' of package subfigure,
+(caption)                but only version
+(caption)                `'
+(caption)                is available.
+
+See the caption package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.18 \begin{document}
+                     
+? 
+Package caption Info: End \AtBeginDocument code.
+(/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count139
-\scratchdimen=\dimen151
+\scratchcounter=\count135
+\scratchdimen=\dimen147
 \scratchbox=\box35
-\nofMPsegments=\count140
-\nofMParguments=\count141
+\nofMPsegments=\count136
+\nofMParguments=\count137
 \everyMPshowfont=\toks34
-\MPscratchCnt=\count142
-\MPscratchDim=\dimen152
-\MPnumerator=\count143
-\makeMPintoPDFobject=\count144
+\MPscratchCnt=\count138
+\MPscratchDim=\dimen148
+\MPnumerator=\count139
+\makeMPintoPDFobject=\count140
 \everyMPtoPDFconversion=\toks35
 )
-\c@lstlisting=\count145
+\c@lstlisting=\count141
 \AtBeginShipoutBox=\box36
- (/usr/share/texmf-dist/tex/latex/graphics/color.sty
-Package: color 2014/10/28 v1.1a Standard LaTeX Color (DPC)
+ (/usr/share/texlive/texmf-dist/tex/latex/graphics/color.sty
+Package: color 2014/04/23 v1.1a Standard LaTeX Color (DPC)
 
-(/usr/share/texmf-dist/tex/latex/latexconfig/color.cfg
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/color.cfg
 File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
 )
 Package color Info: Driver file: pdftex.def on input line 137.
 )
 Package hyperref Info: Link coloring ON on input line 18.
 
-(/usr/share/texmf-dist/tex/latex/hyperref/nameref.sty
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 
-(/usr/share/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
-\c@section@level=\count146
+\c@section@level=\count142
 )
 LaTeX Info: Redefining \ref on input line 18.
 LaTeX Info: Redefining \pageref on input line 18.
 LaTeX Info: Redefining \nameref on input line 18.
- (./Thesis.out) (./Thesis.out)
+
+(./Thesis.out) (./Thesis.out)
 \@outlinefile=\write3
 \openout3 = `Thesis.out'.
 
 
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
+
+]
 ------------------------------------------------------------------------------
  Title Page
 ------------------------------------------------------------------------------
 [1
 
 
-
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+]
 ------------------------------------------------------------------------------
  Declara\IeC {\c c}\IeC {\~a}o de autoria
 ------------------------------------------------------------------------------
-LaTeX Font Info:    Try loading font information for U+msa on input line 73.
-(/usr/share/texmf-dist/tex/latex/amsfonts/umsa.fd
+LaTeX Font Info:    Try loading font information for U+msa on input line 74.
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 73.
+LaTeX Font Info:    Try loading font information for U+msb on input line 74.
 
-(/usr/share/texmf-dist/tex/latex/amsfonts/umsb.fd
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-Underfull \hbox (badness 10000) in paragraph at lines 73--73
+Underfull \hbox (badness 10000) in paragraph at lines 74--74
 
  []
 
@@ -821,7 +856,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 73--73
  [5
 
 
-]
+] [6]
 ------------------------------------------------------------------------------
  Lista de Figuras
 ------------------------------------------------------------------------------
@@ -829,7 +864,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 73--73
 \tf@lof=\write5
 \openout5 = `Thesis.lof'.
 
- [6
+ [7
 
 
 ]
@@ -840,20 +875,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 73--73
 \tf@lot=\write6
 \openout6 = `Thesis.lot'.
 
- [7
+ [8
 
 
 ]
 ------------------------------------------------------------------------------
  Abrevia\IeC {\c c}\IeC {\~o}es
-------------------------------------------------------------------------------
-[8
-
-
-
-]
-------------------------------------------------------------------------------
- Constantes F\IeC {\'\i }sicas
 ------------------------------------------------------------------------------
 [9
 
@@ -861,7 +888,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 73--73
 
 ]
 ------------------------------------------------------------------------------
- S\IeC {\'\i }mbolos
+ Constantes F\IeC {\'\i }sicas
 ------------------------------------------------------------------------------
 [10
 
@@ -869,9 +896,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 73--73
 
 ]
 ------------------------------------------------------------------------------
- Dedicat\IeC {\'o}ria
+ S\IeC {\'\i }mbolos
 ------------------------------------------------------------------------------
 [11
+
+
+
+]
+------------------------------------------------------------------------------
+ Dedicat\IeC {\'o}ria
+------------------------------------------------------------------------------
+[12
 
 ] (./Chapters/Chapter0.tex
 Cap\'{\i }tulo 1.
@@ -888,15 +923,15 @@ Cap\'{\i }tulo 2.
  2 Algoritmos de extra\IeC {\c c}\IeC {\~a}o e reconhecimento de caracter\IeC {
 \'\i }sticas
 ------------------------------------------------------------------------------
-) (./Chapters/Chapter2.tex [2
+[2
 
-]
+]) (./Chapters/Chapter2.tex [3]
 Cap\'{\i }tulo 3.
 ------------------------------------------------------------------------------
  3 Movimenta\IeC {\c c}\IeC {\~a}o e identifica\IeC {\c c}\IeC {\~a}o de nuvens
 
 ------------------------------------------------------------------------------
-) (./Chapters/Chapter3.tex [3
+) (./Chapters/Chapter3.tex [4
 
 ]
 Cap\'{\i }tulo 4.
@@ -904,72 +939,89 @@ Cap\'{\i }tulo 4.
  4 Experimento comparativo
 ------------------------------------------------------------------------------
 LaTeX Font Info:    Try loading font information for OMS+cmr on input line 10.
-(/usr/share/texmf-dist/tex/latex/base/omscmr.fd
+(/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 10.
-) (./Chapters/Chapter4.tex
-[4
+)
+(./Chapters/Chapter4.tex [5
 
 ]
 Cap\'{\i }tulo 5.
 ------------------------------------------------------------------------------
  5 Resultados e an\IeC {\'a}lises
 ------------------------------------------------------------------------------
-) (./Chapters/Chapter5.tex [5
+) (./Chapters/Chapter5.tex [6
 
 ]
 Cap\'{\i }tulo 6.
 ------------------------------------------------------------------------------
  6 Conclus\IeC {\~o}es
 ------------------------------------------------------------------------------
-) (./Appendices/AppendixA.tex [6
+) (./Appendices/AppendixA.tex [7
 
 ]
 Ap\^endice A.
 ------------------------------------------------------------------------------
  A An Appendix
 ------------------------------------------------------------------------------
-[7
+[8
 
-]) [8]
+]) [9]
 ------------------------------------------------------------------------------
  Bibliografia
 ------------------------------------------------------------------------------
 No file Thesis.bbl.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 222.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 222.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 223.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 223.
 (./Thesis.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 222.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 222.
-Package rerunfilecheck Info: File `Thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 2D6C71C9426C29A2413B2E5B2A9C3C42;2265.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 222.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 223.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 223.
+
+
+Package rerunfilecheck Warning: File `Thesis.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `Thesis.out':
+(rerunfilecheck)             Before: 2D6C71C9426C29A2413B2E5B2A9C3C42;2265
+(rerunfilecheck)             After:  53C5CA40396BF0AFE10DAC03B38A342F;2857.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 223.
  ) 
 Here is how much of TeX's memory you used:
- 13594 strings out of 493109
- 188234 string characters out of 6140856
- 267258 words of memory out of 5000000
- 16792 multiletter control sequences out of 15000+600000
- 12700 words of font info for 47 fonts, out of 8000000 for 9000
- 1141 hyphenation exceptions out of 8191
+ 13395 strings out of 494996
+ 186946 string characters out of 6180490
+ 259796 words of memory out of 5000000
+ 16351 multiletter control sequences out of 15000+600000
+ 13360 words of font info for 49 fonts, out of 8000000 for 9000
+ 16 hyphenation exceptions out of 8191
  49i,11n,45p,13210b,405s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/
-texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-dist/fon
-ts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist/fonts/type1/publi
-c/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/c
-mr12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/
-share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texmf-dist
-/fonts/type1/public/amsfonts/cm/cmsl12.pfb></usr/share/texmf-dist/fonts/type1/p
-ublic/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts
-/cm/cmsy8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/te
-xmf-dist/fonts/type1/public/amsfonts/symbols/msam7.pfb>
-Output written on Thesis.pdf (20 pages, 166096 bytes).
+pdfTeX warning (dest): name{appendix.24} has been referenced but does not exi
+st, replaced by a fixed one
+
+pdfTeX warning (dest): name{chapter.23} has been referenced but does not exist,
+ replaced by a fixed one
+
+pdfTeX warning (dest): name{chapter.20} has been referenced but does not exist,
+ replaced by a fixed one
+
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/
+share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/
+texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texliv
+e/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf
+-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/f
+onts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/ty
+pe1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/publ
+ic/amsfonts/cm/cmsl12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/ams
+fonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
+cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti
+10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb
+></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam7.pfb>
+Output written on Thesis.pdf (23 pages, 170467 bytes).
 PDF statistics:
- 252 PDF objects out of 1000 (max. 8388607)
- 214 compressed objects within 3 object streams
- 45 named destinations out of 1000 (max. 500000)
+ 271 PDF objects out of 1000 (max. 8388607)
+ 230 compressed objects within 3 object streams
+ 54 named destinations out of 1000 (max. 500000)
  121 words of extra memory for PDF output out of 10000 (max. 10000000)
 
