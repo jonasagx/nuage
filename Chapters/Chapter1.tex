@@ -1,17 +1,11 @@
 \chapter{Algoritmos de extração e reconhecimento de características}
 
-% In computer vision and image processing the concept of feature detection refers
-% to methods that aim at computing abstractions of image information and making
-%local decisions at every image point whether there is an image feature of a
-%given type at that point or not. The resulting features will be subsets of the
-%image domain, often in the form of isolated points, continuous curves or connected regions.
-
 Em visão computacional e processamento de imagem o conceito de detecção de
 características (Feature detenction do termo em inglês) se refere aos
-métodos que procuram através da computação de abstrações das informações de uma
+métodos que procuram através da extração de informações de uma
 imagem tomar decisões em cada ponto de uma imagem: se existe uma característica
 de algum tipo nesse ponto ou não. As características resultantes serão
-subconjuntos do domonio da imagem, frequentemente na forma de pontos isolados,
+subconjuntos do domínio da imagem, frequentemente na forma de pontos isolados,
 curvas contínuas ou regiões conectadas.
 
 First, ‘interest points’ are selected at distinctive locations in the image,
@@ -25,6 +19,19 @@ descriptor vectors are matched between different images. The matching is often
 based on a distance between the vectors, e.g. the Mahalanobis or Euclidean
 distance. The dimension of the descriptor has a direct impact on the time this
 takes, and a lower number of dimensions is therefore desirable
+
+Primeiro, pontos de interesse são selecionados em locais distintos na imagem,
+tais como bordas, blocos e junções em formato de T. A propriedade mais valiosa
+de um detector de pontos de interesse é sua repetibilidade, isso é: se é capaz
+de encontrar os mesmos pontos de interesse sob diferentes condições. Em
+seguida, a vizinhaça de cada ponto de interesse é representada por um vetor de
+características. Esse descritor deve ser distintivo, e ao mesmo tempo,
+resistente ao ruído, detecção de erros, e deformações geométricas e
+fotométricas. Por fim, os vetores de caractéricas são combinados entre as
+imagens, essa associação é geralmente baseada na distância entre os vetores,
+como distância de Mahalanobis ou de Euclides. A dismensão do descritor tem um
+impacto direto no tempo para realizar essa associação, e um baixo número de
+dimensões é assim desejado.
 
 \section{SURF - Speeded up robust features}
 Here, we focus on scale and image rotation invari ant detectors and
