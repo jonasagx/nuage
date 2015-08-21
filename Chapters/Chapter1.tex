@@ -20,6 +20,19 @@ based on a distance between the vectors, e.g. the Mahalanobis or Euclidean
 distance. The dimension of the descriptor has a direct impact on the time this
 takes, and a lower number of dimensions is therefore desirable
 
+Feature detection is the process where we auto-matically examine an image to
+extract features,that  are  unique  to  the  objects  in  the  image,  insuch
+a  manner  that  we  are  able  to  detect  anobject based on its features in
+different images.This detection should ideally be possible whenthe image shows
+the object with different trans-formations, mainly scale and rotation, or
+whenparts of the object are occluded
+
+Detecção de características é o processo onde uma imagem é examinada
+automaticamente para extrair caractéricas, as quais são únicas para os objetos
+na imagem, para permitir a identificação de um objeto em diferentes imagens
+usando suas características, do objeto, como referência. Essa detecção deve ser
+possível quando a imagem
+
 Primeiro, pontos de interesse são selecionados em locais distintos na imagem,
 tais como bordas, blocos e junções em formato de T. A propriedade mais valiosa
 de um detector de pontos de interesse é sua repetibilidade, isso é: se é capaz
@@ -34,7 +47,7 @@ impacto direto no tempo para realizar essa associação, e um baixo número de
 dimensões é assim desejado.
 
 \section{SURF - Speeded up robust features}
-Here, we focus on scale and image rotation invari ant detectors and
+Here, we focus on scale and image rotation invariant detectors and
 descriptors. These seem to offer a good compromise between feature complexity
 and robustness to commonly occurring deformations. Skew, anisotropic scaling,
 and perspective effects are assumed to be second-order effects, that are
